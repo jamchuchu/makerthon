@@ -1,8 +1,7 @@
 from jikko.jikko import *
+jk = Pyjikko()
 
-jk = Pykyjikko()
-
-PORT = 'COM5'
+PORT = 'COM9'
 LED = 5
 BUZZER = 6
 
