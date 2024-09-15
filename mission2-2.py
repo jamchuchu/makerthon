@@ -2,7 +2,7 @@
 from jikko.jikko import *
 jk = Pyjikko()
 
-PORT = 'COM7'
+PORT = 'COM9'
 SERVO = 8
 TRIG = 13
 ECHO = 12
