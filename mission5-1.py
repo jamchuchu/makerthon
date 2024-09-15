@@ -20,9 +20,9 @@ while True:
     humi = jk.humi_read(TEM_HUM)
     water = jk.soil_read(SOIL)
     light = jk.cds_read(CDS)
-
-    jk.lcd_display(0,0,str(temp))
-    jk.lcd_display(0,1,str(humi))
+    
+    jk.lcd_display(0,0,str(light))
+    jk.lcd_display(0,1,str(water))
 
     if light > 500:
         jk.neopixel_display_all(NEO, 255, 255, 0)

@@ -1,7 +1,7 @@
 from jikko.jikko import *
 jk = Pyjikko()
 
-PORT = 'COM7'
+PORT = 'COM9'
 NEO = 7
 TEM_HUM = 4
 TRIG = 13

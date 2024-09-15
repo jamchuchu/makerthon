@@ -12,9 +12,10 @@ jk.neopixel_set(NEO,4)
 
 while True:
     light=jk.cds_read(CDS)
+    print(light)
     
     if light < 200:
-        jk.neopixel_clear(NEO)
+        jk.neopixel_display_all(NEO,0,255,0)
         time.sleep(1)
     elif 200<= light < 400 :
         jk.neopixel_display(NEO,0,255,255,255)

@@ -1,8 +1,7 @@
 from jikko.jikko import *
 jk = Pyjikko()
 
-#포트 번호 알맞게 바꾸기
-PORT = 'COM7'
+PORT = 'COM9'
 NEO = 7
 RX = 10
 TX = 11
